@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jean Michel Chaplin - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; margin: 0; background: #1e293b; color: #f1f5f9; }
+    header { background: url('https://images.unsplash.com/photo-1581091870620-1c7a1c2463d1?auto=format&fit=crop&w=1650&q=80') center/cover no-repeat; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background-blend-mode: overlay; background-color: rgba(30,41,59,0.7); }
+    header h1 { font-size: 3rem; margin: 0; }
+    header p { font-size: 1.2rem; margin-top: 10px; }
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+    .section-title { border-bottom: 2px solid #38bdf8; padding-bottom: 10px; margin-bottom: 40px; font-size: 2rem; }
+    .card { background: #334155; padding: 20px; margin-bottom: 20px; border-radius: 10px; transition: transform 0.3s; }
+    .card:hover { transform: translateY(-5px); }
+    ul { list-style-type: disc; padding-left: 20px; }
+    a.contact-button { display: inline-block; margin-top: 20px; padding: 12px 30px; background: #38bdf8; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; }
+    footer { text-align: center; font-size: 14px; padding: 20px; color: #94a3b8; }
+    form { display: flex; flex-direction: column; gap: 10px; }
+    input, textarea { padding: 12px; border: none; border-radius: 5px; font-size: 16px; }
+    button { background: #38bdf8; color: white; border: none; padding: 12px; border-radius: 5px; cursor: pointer; font-weight: bold; }
+    button:hover { background: #0ea5e9; }
+  </style>
+</head>
+<body>
+
+<header data-aos="fade-down">
+  <h1>Jean Michel Chaplin</h1>
+  <p>Quality Assurance | Data Management | Supply Chain Excellence</p>
+  <a class="contact-button" href="#contact">Contact Me</a>
+</header>
+
+<section data-aos="fade-up">
+  <div class="section-title">About Me</div>
+  <div class="card">
+    <p>Experienced Quality Assurance and Data Management Specialist with over three years supporting pharmaceutical operations, regulatory compliance, and supply chain strategy. Skilled in GxP compliance, CAPA management, ERP/PLM systems (SAP PLM, Oracle Agile), and operational excellence. Bilingual in English and Spanish, committed to continuous improvement and quality-driven solutions.</p>
+  </div>
+</section>
+
+<section data-aos="fade-up">
+  <div class="section-title">Professional Experience</div>
+  <div class="card">
+    <h3>Master Data Management & Supply Chain Business Analyst Consultant - Gilead Sciences</h3>
+    <p>Sep 2023 – Present</p>
+    <ul>
+      <li>Streamlined master data operations to enhance supply chain efficiency and global compliance.</li>
+      <li>Directed system validation (CRP, UAT, PQ testing) for PLM platforms.</li>
+      <li>Participated in CAPAs, deviations, change controls, and regulatory compliance projects.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>General Manager - La Costanera Restaurant</h3>
+    <p>May 2022 – May 2023</p>
+    <ul>
+      <li>Oversaw daily operations, achieving 90%+ customer satisfaction rate.</li>
+      <li>Implemented quality control procedures, reducing operational errors.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>Director of Operations - Chick-fil-A Franchise</h3>
+    <p>May 2021 – Mar 2022</p>
+    <ul>
+      <li>Developed a quality assurance roadmap, significantly improving food safety KPIs.</li>
+      <li>Led a 100-person team ensuring compliance with quality and safety standards.</li>
+    </ul>
+  </div>
+</section>
+
+<section data-aos="fade-up">
+  <div class="section-title">Education</div>
+  <div class="card">
+    <p><strong>Master of Science (M.S.), Mass Communication</strong> - Oklahoma State University</p>
+    <p><strong>Bachelor's Degree, Advertising Design and Production</strong> - Universidad Popular Autónoma del Estado de Puebla</p>
+  </div>
+</section>
+
+<section data-aos="fade-up">
+  <div class="section-title">Skills</div>
+  <div class="card">
+    <ul>
+      <li>GxP Compliance, CAPA Management</li>
+      <li>ERP/PLM Systems (SAP PLM, Oracle Agile)</li>
+      <li>Supply Chain Strategy & Data Management</li>
+      <li>Regulatory Guidelines and Batch Record Review</li>
+      <li>Cross-Functional Team Leadership</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact" data-aos="fade-up">
+  <div class="section-title">Contact Me</div>
+  <div class="card">
+    <form action="mailto:jm.chaplin1@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Jean Michel Chaplin. All rights reserved.
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
